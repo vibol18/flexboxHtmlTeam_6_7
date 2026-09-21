@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0%;
+            margin: 0%;
+            box-sizing: border-box;
+        }
+        .container{
+            border: solid red;
+            width: 600px;
+        }
+
+        .body{
+            display: flex;
+            align-items: center
+            justify-content: center;
+        }
+        .Flexbig{
+            background-color: red;
+            width: 600px;
+            height: 50px;
+            display: flex;
+        }
+        .middle{
+            display: flex;
+        }
+        .bl{
+            background-color: rgb(194, 255, 192);
+            width: 200px;
+            height: 100px;
+        }
+        .flex1{
+            background-color: black;
+            width: 400px;
+            height: 50px;
+        }
+        .flex2{
+            background-color: green;
+            width: 400px;
+            height: 50px;
+        }
+        
+        .test{
+            display: flex;
+            flex-direction: column;
+        }
+        .flex3{
+            display: flex;
+        }
+        .left{
+            width: 33.33%;
+            background-color: red;
+        }
+        .middle{
+            width: 33.33%;
+            background-color: green;
+        }
+        .right{
+            background-color: blue;
+            width: 33.33%;
+        }
+
+    </style>
+</head>
+<body class="body">
+    <div class="container">
+        
+    <div class="Flexbig">flex</div>
+
+    <div class="middle">
+        <div class="bl">black left</div>
+        <div class="test">
+        <div class="flex1">flex</div>
+        <div class="flex2">flex</div>
+        <div>
+
+    </div>
+
+    <div class="flex3">
+        <div class="left">flex</div>
+        <div class="middle">flex</div>
+        <div class="right">flex</div>
+        </div>
+    </div>
+    
+</body>
+</html>
