@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .container-box {
+        border: 2px solid blueviolet;
+        width: 300px;
+        border-radius: 5px;
+      }
+      .container-box .Heading {
+        display: flex;
+      }
+      .A {
+        width: 70%;
+        height: 40px;
+        background-color: chocolate;
+      }
+      .B {
+        width: 30%;
+        height: 40px;
+        background-color: chartreuse;
+      }
+      .container-box .main {
+        display: flex;
+      }
+      .C {
+        width: 50%;
+        height: 80px;
+        background-color: darkorange;
+      }
+      .C1{
+        display: flex;
+        flex-direction: column;
+      }
+      .D {
+        width: 160px;
+        height: 40px;
+        background-color: blue;
+        display: flex;
+        flex-direction: column;
+      }
+      .E {
+        width: 160px;
+        height: 40px;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+      }
+      .container-box .Body{
+        display: flex;
+      }
+      .F{
+        width: 25%;
+        height: 40px;
+        background-color: brown;
+      }
+      .G{
+        width: 50%;
+        height: 40px;
+        background-color: cornflowerblue;
+      }
+      .H{
+        width: 25%;
+        height: 40px;
+        background-color: crimson;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-box">
+      <div class="Heading">
+        <div class="A">A</div>
+        <div class="B">B</div>
+      </div>
+
+      <div class="main">
+        <div class="C">C</div>
+        <div class="C1">
+          <div class="D">D</div>
+          <div class="E">E</div>
+        </div>
+      </div>
+
+      <div class="Body">
+        <div class="F">F</div>
+        <div class="G">G</div>
+        <div class="H">H</div>
+      </div>
+    </div>
+  </body>
+</html>
