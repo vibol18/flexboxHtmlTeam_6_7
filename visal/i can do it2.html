@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            background-color: aliceblue;
+            width: 800px;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .container{
+            background-color: aliceblue;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .container .box1{
+            background-color: blue;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 300px;
+            height: 50px;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .box2{
+            display: flex;
+        }
+        .box2 .boxa{
+            border: 2px solid black;
+            background-color: black;
+            width: 30%;
+            height: 90px;
+        }
+        .box2 .flex {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            width: 70%;
+           
+        }
+        .box2 .flex .flex1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid black;
+            background-color: red;
+            height: 40px;
+    
+        }
+        .box2 .flex .flex2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid black;
+            background-color: red;
+            height: 40px;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .container .box4{
+            display: flex;
+            gap: 10px;
+            
+            
+        }
+        .container .box4 .boxd{
+            border: 2px solid black;
+            width: 30%;
+            height: 40px;
+            background-color: orange;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .container .box4 .boxe{
+            border: 2px solid black;
+            width: 30%;
+            height: 40px;
+            background-color: orange;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container .box4 .boxf{
+            border: 2px solid black;
+            width: 30%;
+            height: 40px;
+            background-color: orange;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box1">
+            Flex
+        </div>
+        <div class="box2">
+            <div class="boxa"></div>
+            <div class="flex">
+                <div class="flex1">flex</div>
+                <div class="flex2">flex</div>
+            </div>
+        </div>
+        
+        <div class="box4">
+            <div class="boxd">flex</div>
+            <div class="boxe">flex</div>
+            <div class="boxf">flex</div>
+
+        </div>
+
+    </div>
+</body>
+</html>
