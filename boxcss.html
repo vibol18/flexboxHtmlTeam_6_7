@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Grid + Flexbox</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #242424;
+      font-family: Arial, sans-serif;
+    }
+
+    /* CSS Grid container */
+    .grid {
+      width: 270px;
+      height: 225px;
+      padding: 10px;
+      background: white;
+
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 55px 45px 45px 45px;
+      gap: 6px;
+    }
+
+    /* Top Flex box */
+    .top {
+      grid-column: 1 / 4;
+
+      background: #337fba;
+      border: 3px solid #111;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: bold;
+    }
+
+    /* Left black area */
+    .left {
+      grid-column: 1;
+      grid-row: 2 / 4;
+
+      background: #222;
+      border: 3px solid #111;
+    }
+
+    /* Middle/right Flex boxes */
+    .middle {
+      grid-column: 2 / 4;
+
+      background: #ff542b;
+      border: 3px solid #111;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: bold;
+    }
+
+    /* Bottom Flex boxes */
+    .bottom {
+      background: #f5a044;
+      border: 3px solid #111;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="grid">
+
+    <div class="top">
+      Flex
+    </div>
+
+    <div class="left"></div>
+
+    <div class="middle">
+      Flex
+    </div>
+
+    <div class="middle">
+      Flex
+    </div>
+
+    <div class="bottom">
+      Flex
+    </div>
+
+    <div class="bottom">
+      Flex
+    </div>
+
+    <div class="bottom">
+      Flex
+    </div>
+
+  </div>
+
+</body>
+</html>
+</body>
+</html>
